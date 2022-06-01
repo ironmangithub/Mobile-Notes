@@ -1,4 +1,4 @@
-# Concepts
+# Basic Concepts
 
 NPU: neural processing unit, an AI Accelerator, a specialized circuit; implements all the necessary control and arithmetic logic necessary to execute machine learning algorithms.
 
