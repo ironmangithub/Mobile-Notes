@@ -1,3 +1,3 @@
-# MobileNotes
+# Mobile Notes
 
 Mobile learning notes. 
