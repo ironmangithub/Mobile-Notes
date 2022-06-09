@@ -1,3 +1,1 @@
-# Mobile Notes
-
-Mobile learning notes. 
+2022 Tech related notes 
