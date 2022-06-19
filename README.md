@@ -1,1 +1,1 @@
-2022 Tech related notes 
+Tech related notes 
