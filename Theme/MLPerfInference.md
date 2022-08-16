@@ -1,7 +1,7 @@
-# MLPerf Inference Rules
+# MLPerf Inference
 Reference: 
-1. https://github.com/mlcommons/inference_policies/blob/master/inference_rules.adoc
-2. Reddi, Vijay Janapa, et al. "Mlperf inference benchmark." 2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA). IEEE, 2020.
+1. Rules: https://github.com/mlcommons/inference_policies/blob/master/inference_rules.adoc
+2. Paper: Reddi, Vijay Janapa, et al. "Mlperf inference benchmark." 2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA). IEEE, 2020.
 ## Overview
 * Goal: evaluating ML inference systems.
 * Benchmark Suite: proper metrics, benchmark method(measure the inference performance).
@@ -69,8 +69,9 @@ Definition: the time from when the LoadGen was scheduled to pass a query to the 
 4. LoadGen stops generating queries as soon as the benchmark-specific minimum number of queries ahve been generated and the benchmark specific minimum time has elapsed.
 5. LoadGen **waits** for all queires to **complete**, and errors if all queries fail to complete.
 6. LoadGen computes **metrics** for the run.
-![Load Gen Work Flow](assets\LoadGen_Workflow.JPG)
-![Timing and Number of Queries from Load Gen](assets\LoadGen_TimingAndNumber.JPG)  
+
+![Load Gen Work Flow](assets/LoadGen_Workflow.JPG)
+![Timing and Number of Queries from Load Gen](assets/LoadGen_TimingAndNumber.JPG)  
 #### Wheel
 Q: What is the whl file? What does it used for?
 * It is the LoadGen installation file. 
